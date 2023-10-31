@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#fix-container{
+    width: 1020px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+#header{
+    margin-bottom: 35px;
+}
+.purple{
+    width: 100%;
+    height: 8px;
+    background-color:#a292b3 ;
+}
+#header-logo{
+    width: 200px;
+    display: inline-block;
+    position: absolute;
+    top: 30px;    
+}
+#header-home, #header-aboutUs, #header-services,#header-contacts{
+    display: inline-block;  
+    position: relative;
+    padding-left: 55px;
+    left: 420px;
+    padding-top: 45px;    
+    cursor: pointer;
+}
+
+#header-text{
+    display: inline-block;
+    color: #646464;
+    font-size: 19px;
+    margin-bottom: 35px;
+}
+
+#section{
+ margin-bottom: 35px;
+}
+
+#baner{
+    background-image: url(./img/slider.png);
+    background-repeat: no-repeat;
+    height: 485px;
+    width: 100% ; 
+    position: relative;
+}
+
+#baner-left button{
+    position: absolute;
+    top: 200px;
+    background-color:#82699d;
+    border: none;
+}
+
+#baner-left button :hover{
+    opacity: 0.2;
+    transition: 0.7s;
+}
+
+
+#baner-right button{
+    position: absolute;
+    top: 200px;
+    right: 10px;
+    background-color:#82699d ;
+    border: none;
+}
+
+#baner-right button :hover{
+    opacity: 0.2;
+    transition: 0.7s;
+}
+
+#glav-baner {
+   font-size: 60px;
+   margin-left: 350px;
+   padding-top: 40px;
+   color: #fff;
+}
+
+#text-baner{
+    font-size: 32px;
+    color: #fff;
+    margin-left: 20%;
+}
+
+#texts{
+    font-size: 23px;
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-style: italic;
+}
+
+#texts span{
+    color: #82699d;
+}
+
+#column-left{
+    width: 325px;
+    float: left;
+    margin-bottom: 35px;
+}
+
+#column-right{
+    width: 650px;
+    float: right;
+    margin-bottom: 35px;
+    font-size: 15px;
+    color: #838383;
+}
+
+#column-right h3{
+    font-size: 31px;
+    color: #505051;
+}
+#column-right a {
+    margin-left: 550px;
+    
+}
+
+#featured{
+    margin-bottom: 50px;
+}
+
+#featured-left{
+    width: 330px;
+    font-size: 23px;
+    float: left;
+}
+#feature-right{
+  float: right;
+  width: 650px;
+  margin-top: 5px;
+}
+
+#about img{
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+#footer{
+    background-color: #e1e1e1; 
+     
+}
+#footer-left{
+    float: left;
+}
+#footer-text{
+    color: #7c7b7b;
+    height: 65px;
+    padding-top: 30px;
+}
+
+#footer-centr{
+    float: left;
+   margin-left: 690px;
+   margin-top: 30px;
+}
+#footer-right{
+    float: right;
+    margin-top: 30px;
+}
+
+#prop-container{
+    background-image: url(./img/bg.png);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    display: none;
+}
+
+#prop-form{
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    margin-left: 35%;
+    margin-top: 15%;
+}
+
+#prop-form input{
+    margin-top: 30px;
+     margin-left: 40px;
+    width: 200px;
+    height: 60px;
+   
+}
+
+#button-form{
+    width: 200px;
+    height: 60px;
+    background-color: #82699d;
+    color: #fff;
+    margin-top: 30px;
+    margin-left: 40px;
+    border: none;
+}
+#button-form:hover{
+    opacity: 0.8;
+    transition: 0.8s;
+}
